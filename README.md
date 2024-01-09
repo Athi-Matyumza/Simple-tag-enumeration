@@ -76,9 +76,7 @@ if (s1 != s2) std::cout << "These don’t match!\n";
 ## Acknowledgments
 
 - C++ standard I/O and string processing functionalities utilized.
-- Developed as part of an assignment to enhance skills in file parsing and basic C++ programming.
-- Collaborated with peers for additional insights and testing.
 
 ---
 
-**Note:** This project was created as an assignment, focusing on basic file parsing and string manipulation in C++. It may serve as a foundational example for more complex XML parsing applications.
+**Note:** This project was created focusing on basic file parsing and string manipulation in C++. It may serve as a foundational example for more complex XML parsing applications.
