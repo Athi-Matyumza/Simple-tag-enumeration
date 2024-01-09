@@ -89,12 +89,4 @@ The makefile should execute the `./TagExtraction.exe` command to run the executa
 
 ---
 
-**Note:** The provided overview serves as a quick reference for the program structure and functionality. For detailed code and implementation, refer to the specific files in the project directory.
-
-## Acknowledgments
-
-- C++ standard I/O and string processing functionalities utilized.
-
----
-
 **Note:** This project was created focusing on basic file parsing and string manipulation in C++. It may serve as a foundational example for more complex XML parsing applications.
