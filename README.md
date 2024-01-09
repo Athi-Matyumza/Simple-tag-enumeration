@@ -73,6 +73,42 @@ if (s1 != s2) std::cout << "These don’t match!\n";
 3. Run the executable.
 4. Follow the terminal prompts to read, parse, and manipulate tag data.
 
+## About the Program
+
+The tag extraction program utilizes three files: `TagExtraction.h` (header file with function declarations and struct), `TagExtraction.cpp` (source file with function definitions), and `TagExtractionDriver.cpp` (driver source file displaying the menu, obtaining user input, and calling relevant functions from `TagExtraction.cpp`).
+
+## Functions
+
+### 1. `read`
+
+This function takes a vector storing the list of structs (tags and their data) and a filename. It populates the vector list of type `TagStruct` with tags and their data from the file, and then returns the vector to the calling driver file.
+
+### 2. `print`
+
+This function takes a vector storing the list of structs (tags and their data) and iterates through the elements, displaying extracted tag names. It is a void method.
+
+### 3. `dump`
+
+The `dump` function, with parameters similar to `print`, is also a void function. It utilizes an `ofstream` to write/dump all tags in the vector to a file named `tag.txt` as instructed in the assignment.
+
+### 4. `listData`
+
+The `listData` function takes a vector storing the list of structs (tags and their data) and a tag name. It explicitly prints out that specific tag's name and data.
+
+## How to Run the Program
+
+To run the program, type the following command in the terminal:
+
+```bash
+make run
+```
+
+The makefile should execute the `./TagExtraction.exe` command to run the executable file. After execution, a menu from the program should appear with various options.
+
+---
+
+**Note:** The provided overview serves as a quick reference for the program structure and functionality. For detailed code and implementation, refer to the specific files in the project directory.
+
 ## Acknowledgments
 
 - C++ standard I/O and string processing functionalities utilized.
